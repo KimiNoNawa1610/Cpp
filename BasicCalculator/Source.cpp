@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	int input1, input2;
+	double input1, input2;
 
 	cout << "please enter your first number:";
 
