@@ -1,0 +1,2 @@
+D:\C\Mad Libs Game\Debug\Mad Libs Game.exe
+D:\C\Mad Libs Game\Debug\Mad Libs Game.pdb
