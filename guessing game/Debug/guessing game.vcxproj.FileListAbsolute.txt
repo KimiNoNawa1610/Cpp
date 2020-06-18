@@ -1,0 +1,2 @@
+D:\C\guessing game\Debug\guessing game.exe
+D:\C\guessing game\Debug\guessing game.pdb

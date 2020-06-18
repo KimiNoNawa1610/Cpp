@@ -135,4 +135,113 @@ int main(){
 
 }
 
+----------------------------------------------------------------------------
+					
+						***Array***
+Use to hold multiple data values.
+
+create an array:
+
+	int lucky[] = {4,8,15,16,23,42};
+
+
+
+-----------------------------------------------------------------------------
+
+					***function***
+
+create a basic function:
+
+a function contains: a return type, name following with ( parameter (s)){inside the function}
+
+you need to call the function in order to execute it.
+
+you cannot call the function and then create it. You must create the function before calling it.
+
+you can declare the function and then create it. 
+
+Ex:
+
+void sayHi(string name, int age);
+
+....
+
+void sayHi(string name, int age){
+
+**something for the function to do**
+
+}
+
+--------------------------------------------------------------------------------
+
+					***return***
+
+everything after the return will not be executed.
+
+
+
+---------------------------------------------------------------------------------
+
+					***If statement***
+
+create basic if statement:
+
+if(isMale){
+
+	cout<<"you are a male";
+
+} else{ cout<<"you are not a male";}
+
+operators in if:
+
+&&: and
+
+||: or
+
+!: not
+
+>: greater
+
+<: less
+
+==:equal
+
+-----------------------------------------------------------------------------------
+
+						***switch statement***
+
+special use case of if statement
+
+create an switch statement
+
+switch(compare object){
+
+case "condition":
+
+	some action;
+
+	break;
+
+case "condition":
+
+	some other action
+
+	break;
+
+default:
+	error output
+	
+}
+
+-------------------------------------------------------------------------------------
+						***while loop***
+
+create a while loop
+
+while(condition){action}-check the condition then execute
+
+*do while loop*
+
+do{action}while(condition)- execute first, then check
+
 */
