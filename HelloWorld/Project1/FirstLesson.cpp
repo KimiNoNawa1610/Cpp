@@ -234,7 +234,7 @@ default:
 }
 
 -------------------------------------------------------------------------------------
-						***while loop***
+							***while loop***
 
 create a while loop
 
@@ -243,5 +243,48 @@ while(condition){action}-check the condition then execute
 *do while loop*
 
 do{action}while(condition)- execute first, then check
+
+
+
+---------------------------------------------------------------------------------------
+
+							***pointer***
+a memory address.
+
+to print out a pointer:
+
+cout<<& "data";
+
+create a pointer variable:
+
+type *p"Name"=&"Name of a variable";
+
+the pointer and the variable need to have the same type of values.
+
+dereference a pointer:
+
+just add another * when print out the pointer 
+
+example:
+
+int age =20;
+
+int *pAge=&age;
+
+cout<<*pAge;
+
+output: 20
+
+--------------------------------------------------------------------------------------------
+				
+									***classes/ object***
+
+public: anything public in a class
+
+private: anything private in a class
+
+a class need to have a constructor as Java
+
+
 
 */
