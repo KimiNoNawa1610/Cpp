@@ -1,4 +1,0 @@
-﻿  Source.cpp
-D:\C\Tetris\Source.cpp(42,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-D:\C\Tetris\Source.cpp(45,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  Tetris.vcxproj -> D:\C\Tetris\Debug\shapes.exe

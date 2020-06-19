@@ -13,7 +13,7 @@ public:
 
 };
 
-class Rectangle: public Shapes{
+class Rectangle : public Shapes {
 
 private:
 
@@ -84,7 +84,7 @@ private:
 
 public:
 
-	Triangle(float a, float b,float c) {
+	Triangle(float a, float b, float c) {
 
 		side1 = a;
 
@@ -108,7 +108,7 @@ public:
 
 int main() {
 
-	Shapes *shapes[3];
+	Shapes* shapes[3];
 
 	shapes[0] = new Circle(3.5f);
 
@@ -116,9 +116,9 @@ int main() {
 
 	shapes[2] = new Triangle(6, 10, 8);
 
-	for (int i = 0; i <3;i++) {
+	for (int i = 0; i < 3; i++) {
 
-		cout << "Shape["<<i<<"] Area= "<<shapes[i]->Area() << endl;
+		cout << "Shape[" << i << "] Area= " << shapes[i]->Area() << endl;
 
 	}
 
