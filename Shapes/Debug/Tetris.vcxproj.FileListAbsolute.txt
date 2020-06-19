@@ -1,0 +1,2 @@
+D:\C\Tetris\Debug\shapes.exe
+D:\C\Tetris\Debug\shapes.pdb
