@@ -3,6 +3,8 @@
 #include<math.h>
 using namespace std;
 
+//The basic shapes class
+
 class Shapes {
 
 public:
@@ -12,6 +14,8 @@ public:
 	virtual float Area() = 0;
 
 };
+
+//The Rectangle class inherit from shapes
 
 class Rectangle : public Shapes {
 
@@ -45,6 +49,8 @@ public:
 
 };
 
+// The Circle class inherit from shapes
+
 class Circle :public Shapes {
 
 private:
@@ -71,6 +77,8 @@ public:
 
 	}
 };
+
+//The Triangle class inherit from the Shapes
 
 class Triangle :public Shapes {
 
@@ -107,6 +115,8 @@ public:
 };
 
 int main() {
+
+	//Polymorphism of parent class
 
 	Shapes* shapes[3];
 
