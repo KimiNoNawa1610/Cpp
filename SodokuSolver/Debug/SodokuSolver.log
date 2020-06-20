@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\C\SodokuSolver\Source.cpp(41,14): warning C4129: 'C': unrecognized character escape sequence
+D:\C\SodokuSolver\Source.cpp(41,14): warning C4129: 'S': unrecognized character escape sequence
+  SodokuSolver.vcxproj -> D:\C\SodokuSolver\Debug\SodokuSolver.exe
