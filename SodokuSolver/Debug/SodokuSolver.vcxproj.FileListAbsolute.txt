@@ -1,0 +1,2 @@
+D:\C\SodokuSolver\Debug\SodokuSolver.exe
+D:\C\SodokuSolver\Debug\SodokuSolver.pdb
