@@ -36,10 +36,4 @@ public:
 
 };
 
-int main() {
 
-	input first("D:\C\SodokuSolver\SodokuPuzzle.txt");
-
-	first.getInput();
-
-}
