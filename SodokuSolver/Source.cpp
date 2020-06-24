@@ -144,28 +144,29 @@ void solving() {
 	}
 	if (!b) {
 
-		cout << "Sodoku is unsovable" << endl;
+		cout << "Sudoku is unsovable" << endl;
 
 	}
 	else {
 
-		cout << "Sodoku is solved: \n\n\n" << endl;
+		cout << "Sudoku is solved: \n" << endl;
 
-		
 
-	}
+		for (int i = 0; i < limit; i++) {
 
-	for (int i = 0; i < limit; i++) {
+			for (int j = 0; j < limit; j++) {
 
-		for (int j = 0; j < limit; j++) {
+				cout << gameboard[i][j] << " ";
 
-			cout << gameboard[i][j] << " ";
 
+			}
+			cout << "\n";
 
 		}
-		cout << "\n\n\n";
+
 
 	}
+
 
 
 }
