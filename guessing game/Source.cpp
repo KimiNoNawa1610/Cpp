@@ -10,8 +10,11 @@ int main() {
 	std::mt19937 gen(ran());
 	
 	std::uniform_int_distribution<> distr(0, 10);
+	
 	int answer=distr(gen);
+	
 	int userInput=-1;
+	
 	int guessLimit = 0;
 	while (answer != userInput && guessLimit<3) {
 		cout << "You have " << 3 - guessLimit<<" guesses"<< endl;
