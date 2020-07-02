@@ -27,8 +27,11 @@ int main() {
 		
 		guessLimit++;
 	}
+	
 	if (guessLimit == 3) {
+		
 		cout << "you are out of guess, the number is "<<answer;
+		
 	}
 	else {
 		cout << "you guessed the number " << answer;
