@@ -4,8 +4,11 @@
 using namespace std;
 
 int main() {
+	
 	std::random_device ran;
+	
 	std::mt19937 gen(ran());
+	
 	std::uniform_int_distribution<> distr(0, 10);
 	int answer=distr(gen);
 	int userInput=-1;
