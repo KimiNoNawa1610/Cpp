@@ -33,8 +33,11 @@ int main() {
 		cout << "you are out of guess, the number is "<<answer;
 		
 	}
+	
 	else {
+		
 		cout << "you guessed the number " << answer;
+		
 	}
 
 
