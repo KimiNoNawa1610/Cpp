@@ -1,1 +1,1 @@
-# C++ self-study
+# C++ self-study and small projects
