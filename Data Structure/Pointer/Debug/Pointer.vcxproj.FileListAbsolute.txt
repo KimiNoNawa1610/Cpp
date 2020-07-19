@@ -1,0 +1,2 @@
+D:\C\Data Structure\Pointer\Debug\Pointer.exe
+D:\C\Data Structure\Pointer\Debug\Pointer.pdb
