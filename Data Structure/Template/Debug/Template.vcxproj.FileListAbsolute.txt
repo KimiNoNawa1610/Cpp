@@ -1,0 +1,2 @@
+D:\C\Data Structure\Template\Debug\Template.exe
+D:\C\Data Structure\Template\Debug\Template.pdb
