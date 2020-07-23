@@ -139,8 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="Power.cpp" />
     <ClCompile Include="RecursionType.cpp" />
+    <ClCompile Include="SumofAllNumber.cpp" />
     <ClCompile Include="TailHead.cpp" />
+    <ClCompile Include="TaylorSeries.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

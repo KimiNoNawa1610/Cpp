@@ -10,7 +10,3 @@ int fun(int n) {
 	}
 	return fun(x - 1) + x;
 }
-void main() {
-	int x = 3;
-	fun(x);
-}

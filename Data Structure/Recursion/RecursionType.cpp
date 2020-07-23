@@ -1,5 +1,5 @@
 /*
-5 Types:
+5 Recursive Types:
 
 *Tail Recursion-- Linear recursive function calling itself at the last statement of the function.
 
@@ -9,7 +9,7 @@
 
 *Indirect Recursion-- More than one recursive function that call each other in a circular pattern.
 
-*Nested Recursion-- .
+*Nested Recursion-- Recursive call inside another recursive call. A recursive call take a recursive call as a parameter.
 */
 
 /* Example of tree recursion*/
@@ -27,7 +27,7 @@ void fun(int n) {
 
 /* Example of indirect recursion*/
 
-void funB();
+void funB(int n);
 
 void funA(int n) {
 	if (n > 0) {
@@ -41,3 +41,16 @@ void funB(int n) {
 		funA(n / 2);
 	}
 }
+
+/* Example of nested recursive*/
+int funC(int n) {
+	if (n > 100) {
+		return n - 10;
+	}
+	else {
+		return funC(funC(n + 11));
+
+	}
+}
+
+
