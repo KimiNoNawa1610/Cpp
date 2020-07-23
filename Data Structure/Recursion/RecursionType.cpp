@@ -23,3 +23,21 @@ void fun(int n) {
 		fun(n - 1);
 	}
 }// Take 2^n calls--O(2^n)
+
+
+/* Example of indirect recursion*/
+
+void funB();
+
+void funA(int n) {
+	if (n > 0) {
+		cout << n << endl;
+		funB(n - 1);
+	}
+}
+void funB(int n) {
+	if (n > 1) {
+		cout << n << endl;
+		funA(n / 2);
+	}
+}
