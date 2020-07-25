@@ -1,0 +1,3 @@
+﻿  Arrays.cpp
+D:\C\Data Structure\Arrays\Arrays.cpp(15,6): warning C4101: 'A': unreferenced local variable
+  Arrays.vcxproj -> D:\C\Data Structure\Arrays\Debug\Arrays.exe
