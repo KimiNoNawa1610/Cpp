@@ -120,16 +120,35 @@ public:
 		int i = 0;
 		int j = length - 1;
 		while (i < j) {
-			while (A[i] < 0) { i++; }
-			while (A[j] >= 0) { j++; }
+			while (A[i] < 0) i++; 
+			while (A[j] >= 0) j++; 
 			if (i < j) {
 				swap(A[i], A[j]);// swap function in LinearSearch.cpp
 			}
 		}
 	}
 
-	void merge() {
-
+	void merge(int S[]) {
+		if (isSorted() == true) {// merge only work with sorted array
+			int i,j,k;
+			i = j = k = 0;
+			int* C[sizeof(sizeof(A) + sizeof(S))];
+			int lengthS = sizeof(S) / sizeof(S[0]);
+			while (i < this->length && j < lengthS) {
+				if (A[i] < S[j]) {
+					C[k] = &A[i];
+				}
+				else {
+					C[k] = &S[j];
+				}
+			}
+			for (; i < length; i++) {
+				C[k++] = &A[i];
+			}
+			for (; j < lengthS; j++) {
+				C[k++] = &S[j];
+			}
+		}
 	}
 
 };
