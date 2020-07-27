@@ -140,11 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="FibonacciSeries.cpp" />
     <ClCompile Include="Power.cpp" />
     <ClCompile Include="RecursionType.cpp" />
+    <ClCompile Include="SelectionFormula.cpp" />
     <ClCompile Include="SumofAllNumber.cpp" />
     <ClCompile Include="TailHead.cpp" />
     <ClCompile Include="TaylorSeries.cpp" />
+    <ClCompile Include="TowerofHanoi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
