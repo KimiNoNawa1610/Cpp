@@ -107,5 +107,29 @@ public:
 		return sum() / length;
 	}
 
+	bool isSorted() {
+		for (int i = 0; i < length; i++) {
+			if (A[i] > A[i + 1]) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	void arrage() {// arange positive and negative number. Negative on the left side and positive number on the right side
+		int i = 0;
+		int j = length - 1;
+		while (i < j) {
+			while (A[i] < 0) { i++; }
+			while (A[j] >= 0) { j++; }
+			if (i < j) {
+				swap(A[i], A[j]);// swap function in LinearSearch.cpp
+			}
+		}
+	}
+
+	void merge() {
+
+	}
 
 };
