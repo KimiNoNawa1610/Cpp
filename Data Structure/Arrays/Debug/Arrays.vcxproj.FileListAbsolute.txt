@@ -1,0 +1,2 @@
+D:\C\Data Structure\Arrays\Debug\Arrays.exe
+D:\C\Data Structure\Arrays\Debug\Arrays.pdb
