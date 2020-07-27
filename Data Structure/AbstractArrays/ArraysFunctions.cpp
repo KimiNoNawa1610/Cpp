@@ -133,7 +133,7 @@ public:
 			int i,j,k;
 			i = j = k = 0;
 			int* C[sizeof(sizeof(A) + sizeof(S))];
-			int lengthS = sizeof(S) / sizeof(S[0]);
+			int lengthS = sizeof(&S) / sizeof(S[0]);
 			while (i < this->length && j < lengthS) {
 				if (A[i] < S[j]) {
 					C[k] = &A[i];
