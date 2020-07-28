@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="ArraysFunctions.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="Chanllenges.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

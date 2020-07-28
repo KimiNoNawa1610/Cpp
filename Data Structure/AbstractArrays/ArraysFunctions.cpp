@@ -16,23 +16,26 @@ public:
 		delete[]A;// destructor of the array class
 	}
 
+	int getLength() {
+		return length;
+	}
+
 	void insert(int ii, int index) {
  
-		for (int i = length - 1; i > index; i--) {
-			A[i] = A[i - 1];
+		if (index >= 0 && index <= length) {
+			for (int i = length - 1; i > index; i--) {
+				A[i] = A[i - 1];
 
+			}
+			A[index] = ii;
+			length++;
 		}
-		A[index] = ii;
-		length++;
 	}
 
 	void append(int ii) {
 		if (length < size) {
-			A[length++] = ii;
+			A[length] = ii;
 			length++;
-		}
-		else {
-			throw"Out of bound exception";
 		}
 	}
 
@@ -132,27 +135,31 @@ public:
 		}
 	}
 
-	void merge(int S[]) {
+	Array merge(Array S) {
 		if (isSorted() == true) {// merge only work with sorted array
 			int i,j,k;
 			i = j = k = 0;
-			int* C[sizeof(sizeof(A) + sizeof(S))];
-			int lengthS = sizeof(*S) / sizeof(S[0]);
-			while (i < this->length && j < lengthS) {
-				if (A[i] < S[j]) {
-					C[k] = &A[i];
+			Array* C = new Array(length + S.getLength());
+			while (i < this->length && j < S.getLength()) {
+				if (A[i] < S.A[j]) {
+					C[k] = A[i];
 				}
 				else {
-					C[k] = &S[j];
+					C[k] = S.A[j];
 				}
 			}
 			for (; i < length; i++) {
-				C[k++] = &A[i];
+				C->append(A[i]);
 			}
-			for (; j < lengthS; j++) {
-				C[k++] = &S[j];
+			for (; j < S.getLength(); j++) {
+				C->append(A[j]);
 			}
+			C->length = length + S.length;
+			return *C;
 		}
+		
 	}
 
 };
+
+
