@@ -41,6 +41,8 @@ public:
 
 	bool isSorted();
 
+	bool contains(int number);
+
 	void arrage();
 
 	Array merge(Array S);

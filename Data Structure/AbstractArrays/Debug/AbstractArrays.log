@@ -1,3 +1,4 @@
 ﻿  Chanllenges.cpp
-D:\C\Data Structure\AbstractArrays\Chanllenges.cpp(15): warning C4715: 'findsingle': not all control paths return a value
-  AbstractArrays.vcxproj -> D:\C\Data Structure\AbstractArrays\Debug\AbstractArrays.exe
+D:\C\Data Structure\AbstractArrays\Chanllenges.cpp(35,31): error C2143: syntax error: missing ')' before ';'
+D:\C\Data Structure\AbstractArrays\Chanllenges.cpp(61,17): error C2039: 'lengh': is not a member of 'Array'
+D:\C\Data Structure\AbstractArrays\Array.h(8): message : see declaration of 'Array'

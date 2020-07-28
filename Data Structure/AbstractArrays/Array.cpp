@@ -9,7 +9,7 @@ Array::Array(int si) {
 	length = 0;
 }
 Array::~Array() {
-	delete[]A;// destructor of the array class
+	delete []A;// destructor of the array class
 }
 
 int Array::getLength() {
@@ -121,6 +121,24 @@ bool Array::isSorted() {
 		}
 	}
 	return true;
+}
+
+bool Array::contains(int number) {
+	int low = this->getArray()[0];
+	int height = this->getArray()[this->getLength()-1];
+	while (low <= height) {// iterate until low>height
+		int middle = (low + height) / 2;
+		if (A[middle] == number) {
+			return true;// return true if number in the array
+		}
+		else if (number < A[middle]) {
+			height = middle - 1;
+		}
+		else {
+			low = middle + 1;
+		}
+	}
+	return false;//return false if the number does not in the array
 }
 
 void Array::arrage() {// arange positive and negative number. Negative on the left side and positive number on the right side
