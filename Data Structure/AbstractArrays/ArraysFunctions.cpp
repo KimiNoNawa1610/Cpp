@@ -5,11 +5,15 @@ class Array {
 private:
 	int* A;// pointer in the heap;
 	int length, size;
+
 public:
 	Array(int si) {
 		size = si;
 		A = new int[size];// create an array in the heap;
 		length = 0;
+	}
+	~Array() {
+		delete[]A;// destructor of the array class
 	}
 
 	void insert(int ii, int index) {
