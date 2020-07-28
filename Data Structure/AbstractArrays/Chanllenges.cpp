@@ -6,12 +6,15 @@ using namespace std;
 
 /*Single element*/
 int findsingle(Array s) {
-	int x = s.sum();
-	int total, low, height;
-	low = s.getArray()[s.getLength()];
-	height = low + 1;
-	total = (low * height) / 2;
-	return total - x;
+	int diff = s.getArray()[0];
+	for (int i = 0; i < s.getLength(); i++) {
+		if (s.getArray()[i] - i != diff) {
+			return diff + i;
+		}
+	}
 }
 
 /*Multiple elements*/
+int main() {
+	cout << "hello";
+}

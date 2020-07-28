@@ -1,5 +1,3 @@
-﻿  Array.cpp
-  Chanllenges.cpp
-  Generating Code...
-D:\C\Data Structure\AbstractArrays\Chanllenges.cpp(10): error C4716: 'findsingle': must return a value
-D:\C\Data Structure\AbstractArrays\Array.cpp(157): warning C4715: 'Array::merge': not all control paths return a value
+﻿  Chanllenges.cpp
+D:\C\Data Structure\AbstractArrays\Chanllenges.cpp(15): warning C4715: 'findsingle': not all control paths return a value
+  AbstractArrays.vcxproj -> D:\C\Data Structure\AbstractArrays\Debug\AbstractArrays.exe
