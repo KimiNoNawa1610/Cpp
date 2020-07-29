@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void Reverese(char* A) {
+void Reverse(char* A) {
 	int i, j;
 	char t;
 	for (j = 0; A[j] != '\0'; j++) {

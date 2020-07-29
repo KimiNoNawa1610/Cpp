@@ -146,6 +146,9 @@
     <ClCompile Include="StringValidation.cpp" />
     <ClCompile Include="WordCounting.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReverseString.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
