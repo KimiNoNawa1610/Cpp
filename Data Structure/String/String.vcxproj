@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CompareStringandPalindrome.cpp" />
+    <ClCompile Include="FindDuplication.cpp" />
     <ClCompile Include="FindingLength.cpp" />
     <ClCompile Include="Lower_Upper_Cases.cpp" />
+    <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="StringValidation.cpp" />
     <ClCompile Include="WordCounting.cpp" />

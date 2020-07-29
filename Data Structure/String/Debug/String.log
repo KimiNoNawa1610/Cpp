@@ -1,2 +1,5 @@
-﻿  CompareStringandPalindrome.cpp
+﻿  FindDuplication.cpp
+D:\C\Data Structure\String\FindDuplication.cpp(10,21): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  Permutation.cpp
+  Generating Code...
   String.vcxproj -> D:\C\Data Structure\String\Debug\String.exe
