@@ -27,5 +27,11 @@
     <ClCompile Include="StringValidation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareStringandPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
