@@ -1,0 +1,2 @@
+D:\C\Data Structure\Maxtrices\Debug\Matrices.exe
+D:\C\Data Structure\Maxtrices\Debug\Matrices.pdb

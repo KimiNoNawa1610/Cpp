@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\C\Data Structure\Maxtrices\main.cpp(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Data Structure\Maxtrices\main.cpp(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Data Structure\Maxtrices\main.cpp(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Data Structure\Maxtrices\main.cpp(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Polynomial.cpp
+  Generating Code...
+  Maxtrices.vcxproj -> D:\C\Data Structure\Maxtrices\Debug\Matrices.exe
