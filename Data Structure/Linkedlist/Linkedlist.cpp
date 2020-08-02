@@ -184,6 +184,7 @@ public:
 	}
 
 	friend ostream & operator<<(ostream& a, CircularLinkedlist& b) {
+
 		Node* p = b.first;
 		do {
 			cout << p->value << " ";
@@ -204,6 +205,7 @@ public:
 	}
 
 	void insert(Node *n,int index) {
+
 		Node* t;
 		if (index<0 || index>length()) {
 			return;
