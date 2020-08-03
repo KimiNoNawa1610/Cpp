@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#include"isOperand.h";
 class Node {
 public:
 	int value;
@@ -53,3 +53,29 @@ public:
 };
 
 
+int evaluation(const char* postfix) {
+	LinkedlistStack st = LinkedlistStack();
+	int i, x1, x2, r;
+	for (i = 0; postfix[i] != '\0'; i++) {
+		if (isOperrand(postfix[i])) {
+			st.push(postfix[i]-'0');
+		}
+		else {
+			x2 = st.pop();
+			x1 = st.pop();
+			switch (postfix[i]) {
+			case'+':r = x1 + x2; st.push(r); break;
+			case'-':r = x1 - x2; st.push(r); break;
+			case'*':r = x1 * x2; st.push(r); break;
+			case'/':r = x1 / x2; st.push(r); break;
+			}
+		}
+	}
+	return st.pop();
+}
+
+int main() {
+	const char* postfix = "234*+82/-";
+	cout <<evaluation(postfix);
+	return 0;
+}

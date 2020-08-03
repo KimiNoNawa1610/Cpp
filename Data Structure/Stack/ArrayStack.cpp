@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#include"isOperand.h";
 class Stack {
 
 private:
@@ -149,15 +149,5 @@ char* ConvertInfixtoPostfix(const char* characters) {
 	return postfix;
 }
 
-int evaluation(const char* postfix) {
 
-}
-
-int main() {
-	const char *example1="((a+b)*(c+d))";
-	cout << ParenthesisMatching(example1)<<endl;
-	const char* example2 = "a+b*c-d/e";
-	cout << ConvertInfixtoPostfix(example2);
-	return 0;
-}
 
