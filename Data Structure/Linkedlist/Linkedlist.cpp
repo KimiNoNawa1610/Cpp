@@ -168,6 +168,7 @@ private:
 	 Node *first;
 public:
 	CircularLinkedlist(int A[], int num) {
+
 		int i;
 		Node *t, *last;
 		first = new Node;
@@ -186,6 +187,7 @@ public:
 	friend ostream & operator<<(ostream& a, CircularLinkedlist& b) {
 
 		Node* p = b.first;
+
 		do {
 			cout << p->value << " ";
 			p = p->next;
