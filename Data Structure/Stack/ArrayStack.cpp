@@ -16,11 +16,13 @@ public:
 	}
 
 	friend ostream& operator<<(ostream &a, Stack &b) {
+		cout << "Stack" << endl;
+		cout << endl;
 		for (int i = b.top; i >= 0; i--) {
 			cout << b.S[i]<<endl;
-			if (i != 0) {
-				cout << "---" << endl;
-			}
+			
+			cout << "---" << endl;
+			
 		}
 		return a;
 	}
@@ -69,14 +71,12 @@ public:
 		}
 		return false;
 	}
+
+	int Stacktop() {
+		if (!isEmpty()) {
+			return S[top];
+		}
+		return -1;
+	}
 };
 
-int main() {
-	Stack st = Stack(12);
-	st.push(9);
-	st.push(10);
-	st.push(16);
-	st.push(25);
-	cout << st;
-	return 0;
-}

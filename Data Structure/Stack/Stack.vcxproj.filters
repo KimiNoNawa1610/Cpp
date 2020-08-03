@@ -18,5 +18,8 @@
     <ClCompile Include="ArrayStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LikedlistStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
