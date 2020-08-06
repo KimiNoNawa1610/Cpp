@@ -1,25 +1,7 @@
 #include<iostream>
 #include"Queue.h"
+#include"Tree.h"
 using namespace std;
-
-class Tree {
-private:
-    Node* root;
-public:
-    Tree() { root = nullptr; }
-    void CreateTree();
-    void Preorder() { Preorder(root); }  // Passing Private Parameter in Constructor
-    void Preorder(Node* p);
-    void Postorder() { Postorder(root); }  // Passing Private Parameter in Constructor
-    void Postorder(Node* p);
-    void Inorder() { Inorder(root); }
-    void Inorder(Node* p);
-    void Levelorder() { Levelorder(root); }  // Passing Private Parameter in Constructor
-    void Levelorder(Node* p);
-    int Height() { return Height(root); }  // Passing Private Parameter in Constructor
-    int Height(Node* p);
-    Node* getRoot() { return root; }
-};
 
 void Tree::CreateTree() {
     Node* p;
@@ -63,27 +45,28 @@ void Tree::CreateTree() {
 }
 
 void Tree::Preorder(struct Node* p) {
-    if (p) {
-        cout << p->value << ", " <<flush;
-        Preorder(p->leftchild);
-        Preorder(p->rightchild);
-    }
+    if (p == NULL)
+        return;
+    cout << p->value << " ";
+    Preorder(p->leftchild);
+    Preorder(p->rightchild);
 }
 
 void Tree::Inorder(struct Node* p) {
-    if (p) {
-        Inorder(p->leftchild);
-        cout << p->value << ", " << flush;
-        Inorder(p->rightchild);
-    }
+    if (p == NULL)
+        return;
+    Preorder(p->leftchild);
+    cout << p->value << " ";
+    Preorder(p->rightchild);
 }
 
 void Tree::Postorder(struct Node* p) {
-    if (p) {
-        Postorder(p->leftchild);
-        Postorder(p->rightchild);
-        cout << p->value << ", " << flush;
-    }
+    if (p == NULL)
+        return;
+    Preorder(p->leftchild);
+    Preorder(p->rightchild);
+    cout << p->value << " ";
+    
 }
 
 void Tree::Levelorder(struct Node* p) {
@@ -124,6 +107,6 @@ int Tree::Height(Node* p) {
 int main() {
 	Tree t;
     t.CreateTree();
-	t.Preorder(t.getRoot());
+    t.Levelorder(t.getRoot());
 	return 0;
 }
