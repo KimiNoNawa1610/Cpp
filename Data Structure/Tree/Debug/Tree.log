@@ -1,0 +1,10 @@
+﻿  Tree.cpp
+D:\C\Data Structure\Tree\Tree.cpp(65,32): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+D:\C\Data Structure\Tree\Queue.h(6): message : see declaration of 'Node'
+D:\C\Data Structure\Tree\Tree.cpp(73,31): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+D:\C\Data Structure\Tree\Queue.h(6): message : see declaration of 'Node'
+D:\C\Data Structure\Tree\Tree.cpp(81,33): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+D:\C\Data Structure\Tree\Queue.h(6): message : see declaration of 'Node'
+D:\C\Data Structure\Tree\Tree.cpp(89,34): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+D:\C\Data Structure\Tree\Queue.h(6): message : see declaration of 'Node'
+  Tree.vcxproj -> D:\C\Data Structure\Tree\Debug\Tree.exe
