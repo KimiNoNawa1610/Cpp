@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="2-3-3Tree.cpp" />
     <ClCompile Include="2-3-4Tree.cpp" />
+    <ClCompile Include="Red-BlackTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
