@@ -14,4 +14,5 @@ No 2 consecutive red node
 New inserted node are red
 
 Height is min log(n) and max is 2log(n)
+
 */
