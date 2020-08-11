@@ -13,19 +13,3 @@ void InsertionSort(int A[],int n) {
 		A[j + 1] = key;
 	}
 }
-
-int main()
-{
-	int A[] = { 16,12,25,10 };
-	int n = sizeof(A) / sizeof(A[0]);
-	for (int i = 0; i < n; i++) {
-		cout << A[i] << ", ";
-	}
-	cout << endl;
-	InsertionSort(A, n);
-	for (int i = 0; i < n; i++) {
-		cout << A[i] << ", ";
-	}
-
-	return 0;
-}
