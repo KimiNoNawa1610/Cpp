@@ -135,6 +135,7 @@ void KruskalsMCST(int A[3][9]) {
         }
 
         // Check if the selected min cost edge (u, v) forming a cycle or not
+
         if (Find(u, set) != Find(v, set)) {
             T[0][i] = u;
             T[1][i] = v;
