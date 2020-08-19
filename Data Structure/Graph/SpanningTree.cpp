@@ -125,6 +125,8 @@ void KruskalsMCST(int A[3][9]) {
         int k{ 0 };
 
         // Find a minimum cost edge
+
+
         for (int j{ 0 }; j < E; j++) {
             if (track[j] == 0 && A[2][j] < min) {
                 min = A[2][j];
