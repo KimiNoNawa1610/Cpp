@@ -113,6 +113,7 @@ int Find(int u, int s[]) {
 }
 
 void KruskalsMCST(int A[3][9]) {
+
     int T[2][V - 1];  // Solution array
     int track[E]{ 0 };  // Track edges that are included in solution
     int set[V + 1] = { -1, -1, -1, -1, -1, -1, -1, -1 };  // Array for finding cycle
